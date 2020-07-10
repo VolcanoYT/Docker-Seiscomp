@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+    <menu id="root-menu" label="Openbox 3">
+
+        <item label="Terminal">
+            <action name="Execute">
+                <execute>xfce4-terminal</execute>
+            </action>
+        </item>
+
+        <item label="File Browser">
+            <action name="Execute">
+                <execute>thunar</execute>
+            </action>
+        </item>
+
+        <separator />
+
+        <item label="Config">
+            <action name="Execute">
+                <execute>scconfig</execute>
+            </action>
+        </item>
+
+        <item label="Real-time trace view">
+            <action name="Execute">
+                <execute>scrttv</execute>
+            </action>
+        </item>
+
+        <item label="Event Parameters">
+            <action name="Execute">
+                <execute>scesv</execute>
+            </action>
+        </item>
+
+        <item label="Helicorder">
+            <action name="Execute">
+                <execute>scheli</execute>
+            </action>
+        </item>
+
+        <item label="Messaging Monitor">
+            <action name="Execute">
+                <execute>scmm</execute>
+            </action>
+        </item>
+
+        <item label="Map View">
+            <action name="Execute">
+                <execute>scmv</execute>
+            </action>
+        </item>
+
+        <item label="Origin Locator">
+            <action name="Execute">
+                <execute>scolv</execute>
+            </action>
+        </item>
+
+        <item label="Quality Control">
+            <action name="Execute">
+                <execute>scqcv</execute>
+            </action>
+        </item>
+
+        <separator />
+
+        <item label="Restart">
+            <action name="Restart" />
+        </item>
+        <item label="Exit">
+            <action name="Exit" />
+        </item>
+    </menu>
+
+</openbox_menu>

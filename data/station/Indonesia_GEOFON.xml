@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.1">
+    <Source>SeisComP</Source>
+    <Sender>GFZ</Sender>
+    <Created>2020-07-10T07:14:29.986135</Created>
+    <Network code="GE" startDate="1993-01-01T00:00:00" restrictedStatus="open">
+        <Description>GEOFON Program, GFZ Potsdam, Germany</Description>
+        <Station code="BBJI" startDate="2016-09-05T00:00:00" restrictedStatus="open">
+            <Latitude>-7.462603</Latitude>
+            <Longitude>107.65</Longitude>
+            <Elevation>615</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Bungbulang, Garut, Java</Name>
+                <Country>Java</Country>
+            </Site>
+            <CreationDate>2016-09-05T00:00:00</CreationDate>
+        </Station>
+        <Station code="BKB" startDate="2009-06-09T00:00:00" restrictedStatus="open">
+            <Latitude>-1.1073</Latitude>
+            <Longitude>116.9048</Longitude>
+            <Elevation>110</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Balikpapan, Kalimantan</Name>
+                <Country>Kalimantan</Country>
+            </Site>
+            <CreationDate>2009-06-09T00:00:00</CreationDate>
+        </Station>
+        <Station code="BKNI" startDate="2008-04-29T00:00:00" restrictedStatus="open">
+            <Latitude>0.3262</Latitude>
+            <Longitude>101.0396</Longitude>
+            <Elevation>65</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Bangkinang, Sumatra</Name>
+                <Country>Sumatra</Country>
+            </Site>
+            <CreationDate>2008-04-29T00:00:00</CreationDate>
+        </Station>
+        <Station code="BNDI" startDate="2008-07-04T00:00:00" restrictedStatus="open">
+            <Latitude>-4.5224</Latitude>
+            <Longitude>129.9045</Longitude>
+            <Elevation>16</Elevation>
+            <Site>
+                <Name>GEOFON Station Bandaneira, Indonesia</Name>
+                <Country>Indonesia</Country>
+            </Site>
+            <CreationDate>2008-07-04T00:00:00</CreationDate>
+        </Station>
+        <Station code="FAKI" startDate="2008-12-01T00:00:00" restrictedStatus="open">
+            <Latitude>-2.91925</Latitude>
+            <Longitude>132.24889</Longitude>
+            <Elevation>136</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Fak Fak, Irian Jaya</Name>
+                <Country>Irian Jaya</Country>
+            </Site>
+            <CreationDate>2008-12-01T00:00:00</CreationDate>
+        </Station>
+        <Station code="GENI" startDate="2009-11-26T00:00:00" restrictedStatus="open">
+            <Latitude>-2.5927</Latitude>
+            <Longitude>140.1678</Longitude>
+            <Elevation>47</Elevation>
+            <Site>
+                <Name>GEOFON Station Genyem, Irian Jaya Indonesia</Name>
+                <Country>Irian Jaya Indonesia</Country>
+            </Site>
+            <CreationDate>2009-11-26T00:00:00</CreationDate>
+        </Station>
+        <Station code="GSI" startDate="2005-10-02T00:00:00" restrictedStatus="open">
+            <Latitude>1.3039</Latitude>
+            <Longitude>97.5755</Longitude>
+            <Elevation>107</Elevation>
+            <Site>
+                <Name>GEOFON Station Gunungsitoli, Nias</Name>
+                <Country>Nias</Country>
+            </Site>
+            <CreationDate>2005-10-02T00:00:00</CreationDate>
+        </Station>
+        <Station code="JAGI" startDate="2008-07-21T00:00:00" restrictedStatus="open">
+            <Latitude>-8.4702</Latitude>
+            <Longitude>114.1521</Longitude>
+            <Elevation>171</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Jajag, Java</Name>
+                <Country>Java</Country>
+            </Site>
+            <CreationDate>2008-07-21T00:00:00</CreationDate>
+        </Station>
+        <Station code="LHMI" startDate="2008-02-29T00:00:00" restrictedStatus="open">
+            <Latitude>5.2288</Latitude>
+            <Longitude>96.9472</Longitude>
+            <Elevation>3</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Lhokseumave, Sumatra</Name>
+                <Country>Sumatra</Country>
+            </Site>
+            <CreationDate>2008-02-29T00:00:00</CreationDate>
+        </Station>
+        <Station code="LUWI" startDate="2008-03-10T00:00:00" restrictedStatus="open">
+            <Latitude>-1.0418</Latitude>
+            <Longitude>122.7717</Longitude>
+            <Elevation>6</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Lhokseumave, Sulawesi</Name>
+                <Country>Sulawesi</Country>
+            </Site>
+            <CreationDate>2008-03-10T00:00:00</CreationDate>
+        </Station>
+        <Station code="MMRI" startDate="2006-11-09T00:00:00" restrictedStatus="open">
+            <Latitude>-8.6357</Latitude>
+            <Longitude>122.2376</Longitude>
+            <Elevation>137</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Maumere, Flores</Name>
+                <Country>Flores</Country>
+            </Site>
+            <CreationDate>2006-11-09T00:00:00</CreationDate>
+        </Station>
+        <Station code="MNAI" startDate="2006-07-27T00:00:00" restrictedStatus="open">
+            <Latitude>-4.3605</Latitude>
+            <Longitude>102.9557</Longitude>
+            <Elevation>154</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Manna, Sumatra</Name>
+                <Country>Sumatra</Country>
+            </Site>
+            <CreationDate>2006-07-27T00:00:00</CreationDate>
+        </Station>
+        <Station code="PLAI" startDate="2011-03-04T00:00:00" restrictedStatus="open">
+            <Latitude>-8.8275</Latitude>
+            <Longitude>117.7765</Longitude>
+            <Elevation>125</Elevation>
+            <Site>
+                <Name>GEOFON Station Plampang, Sumbawa, Indonesia</Name>
+                <Country>Indonesia</Country>
+            </Site>
+            <CreationDate>2011-03-04T00:00:00</CreationDate>
+        </Station>
+        <Station code="PMBI" startDate="2009-05-30T00:00:00" restrictedStatus="open">
+            <Latitude>-2.9024</Latitude>
+            <Longitude>104.6993</Longitude>
+            <Elevation>25</Elevation>
+            <Site>
+                <Name>GEOFON Station Palembang, Sumatra</Name>
+                <Country>Sumatra</Country>
+            </Site>
+            <CreationDate>2009-05-30T00:00:00</CreationDate>
+        </Station>
+        <Station code="SANI" startDate="2009-12-03T00:00:00" restrictedStatus="open">
+            <Latitude>-2.0496</Latitude>
+            <Longitude>125.9881</Longitude>
+            <Elevation>30</Elevation>
+            <Site>
+                <Name>GEOFON Station Sanana, Moluccas, Indonesia</Name>
+                <Country>Indonesia</Country>
+            </Site>
+            <CreationDate>2009-12-03T00:00:00</CreationDate>
+        </Station>
+        <Station code="SAUI" startDate="2009-08-25T00:00:00" restrictedStatus="open">
+            <Latitude>-7.9826</Latitude>
+            <Longitude>131.2988</Longitude>
+            <Elevation>110</Elevation>
+            <Site>
+                <Name>GEOFON Station Saumlaki, Tanimbar, Indonesia</Name>
+                <Country>Indonesia</Country>
+            </Site>
+            <CreationDate>2009-08-25T00:00:00</CreationDate>
+        </Station>
+        <Station code="SMRI" startDate="2006-11-01T00:00:00" restrictedStatus="open">
+            <Latitude>-7.04915</Latitude>
+            <Longitude>110.44067</Longitude>
+            <Elevation>203</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Semarang, Java</Name>
+                <Country>Java</Country>
+            </Site>
+            <CreationDate>2006-11-01T00:00:00</CreationDate>
+        </Station>
+        <Station code="SOEI" startDate="2006-12-13T00:00:00" restrictedStatus="open">
+            <Latitude>-9.7553</Latitude>
+            <Longitude>124.2672</Longitude>
+            <Elevation>1047</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Soe, Timor</Name>
+                <Country>Timor</Country>
+            </Site>
+            <CreationDate>2006-12-13T00:00:00</CreationDate>
+        </Station>
+        <Station code="TNTI" startDate="2007-01-05T00:00:00" restrictedStatus="open">
+            <Latitude>0.7718</Latitude>
+            <Longitude>127.3667</Longitude>
+            <Elevation>43</Elevation>
+            <Site>
+                <Name>GEOFON Station GEOFON Station Ternate, Indonesia</Name>
+                <Country>Indonesia</Country>
+            </Site>
+            <CreationDate>2007-01-05T00:00:00</CreationDate>
+        </Station>
+        <Station code="TOLI2" startDate="2012-07-13T00:00:00" restrictedStatus="open">
+            <Latitude>1.11119</Latitude>
+            <Longitude>120.78174</Longitude>
+            <Elevation>51</Elevation>
+            <Site>
+                <Name>GEOFON Station Tolitoli, Sulawesi, Indonesia</Name>
+                <Country>Indonesia</Country>
+            </Site>
+            <CreationDate>2012-07-13T00:00:00</CreationDate>
+        </Station>
+        <Station code="UGM" startDate="1995-08-23T00:00:00" restrictedStatus="open">
+            <Latitude>-7.9125</Latitude>
+            <Longitude>110.5231</Longitude>
+            <Elevation>350</Elevation>
+            <Site>
+                <Name>GEOFON Station Wanagama, Indonesia</Name>
+                <Country>Indonesia</Country>
+            </Site>
+            <CreationDate>1995-08-23T00:00:00</CreationDate>
+        </Station>
+    </Network>
+</FDSNStationXML>
