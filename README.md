@@ -1,6 +1,6 @@
 # Docker Seiscomp
 
-Run Seiscomp with easy steps (base alpine)
+Run Seiscomp with easy steps (base ubuntu)
 
 ![Screenshot](show_me.jpg)
 
@@ -9,7 +9,7 @@ Run Seiscomp with easy steps (base alpine)
 Use docker to run it (VolcanoYT Repo requires a password, please ask me first)
 
 ```bash
-docker run --rm -it  -p 5901:5901/tcp -p 6080:6080/tcp repo.volcanoyt.com/docker-seiscomp:last
+docker run --rm -it -p 6080:6080/tcp repo.volcanoyt.com/docker-seiscomp:last
 ```
 
 or please build it manually so you can use it without a password :)

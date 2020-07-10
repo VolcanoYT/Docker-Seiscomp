@@ -1,8 +1,7 @@
 #!/bin/bash
 cd $WORK || exit
 
-ls
+# We love merapi :)
 feh --bg-fill merapi.jpg
-echo "hello"
 
 exit 1

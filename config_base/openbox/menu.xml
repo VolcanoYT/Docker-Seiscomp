@@ -18,11 +18,23 @@
             </action>
         </item>
 
+        <item label="NotePad">
+            <action name="Execute">
+                <execute>mousepad</execute>
+            </action>
+        </item>
+
         <separator />
 
-        <item label="Config">
+        <item label="Config Menu">
             <action name="Execute">
                 <execute>scconfig</execute>
+            </action>
+        </item>
+
+        <item label="Update and Restart">
+            <action name="Execute">
+                <execute>scqcv</execute>
             </action>
         </item>
 
