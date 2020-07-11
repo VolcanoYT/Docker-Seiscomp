@@ -1,2 +1,4 @@
 /.vscode/
 /binary/
+/config_db/databases
+/config_db/log

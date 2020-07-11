@@ -20,45 +20,21 @@
 
         <item label="NotePad">
             <action name="Execute">
-                <execute>mousepad</execute>
+                <execute>gedit</execute>
             </action>
         </item>
 
-        <separator />
-
-        <item label="Config Menu">
+        <item label="Virtual Keyboard">
             <action name="Execute">
-                <execute>scconfig</execute>
+                <execute>florence</execute>
             </action>
         </item>
 
-        <item label="Update and Restart">
-            <action name="Execute">
-                <execute>scqcv</execute>
-            </action>
-        </item>
+        <separator />        
 
         <item label="Real-time trace view">
             <action name="Execute">
                 <execute>scrttv</execute>
-            </action>
-        </item>
-
-        <item label="Event Parameters">
-            <action name="Execute">
-                <execute>scesv</execute>
-            </action>
-        </item>
-
-        <item label="Helicorder">
-            <action name="Execute">
-                <execute>scheli</execute>
-            </action>
-        </item>
-
-        <item label="Messaging Monitor">
-            <action name="Execute">
-                <execute>scmm</execute>
             </action>
         </item>
 
@@ -74,11 +50,43 @@
             </action>
         </item>
 
+        <item label="Event Parameters">
+            <action name="Execute">
+                <execute>scesv</execute>
+            </action>
+        </item>
+
+        <item label="Helicorder">
+            <action name="Execute">
+                <execute>xfce4-terminal -e 'scheli GE.PLAI..BHZ'</execute>
+            </action>
+        </item>
+
+        <item label="Messaging Monitor">
+            <action name="Execute">
+                <execute>scmm</execute>
+            </action>
+        </item>
+
         <item label="Quality Control">
             <action name="Execute">
                 <execute>scqcv</execute>
             </action>
         </item>
+
+        <separator />
+
+        <item label="Update">
+            <action name="Execute">
+                <execute>xfce4-terminal -e "seiscomp update-config;seiscomp restart"</execute>
+            </action>
+        </item>
+
+        <item label="Config GUI">
+            <action name="Execute">
+                <execute>scconfig</execute>
+            </action>
+        </item>        
 
         <separator />
 

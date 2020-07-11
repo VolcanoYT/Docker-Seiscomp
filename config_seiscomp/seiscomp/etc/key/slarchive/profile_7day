@@ -1,0 +1,3 @@
+# Number of days the data is kept in the archive. This requires purge_datafile
+# to be run as cronjob.
+keep = 7

@@ -3,5 +3,3 @@ cd $WORK || exit
 
 # We love merapi :)
 feh --bg-fill merapi.jpg
-
-exit 1

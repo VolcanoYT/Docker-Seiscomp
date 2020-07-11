@@ -1,0 +1,23 @@
+version: '3.4'
+services:
+  seiscomp:
+    container_name: main_seiscomp
+    image: repo.volcanoyt.com/docker-seiscomp:last
+    restart: on-failure
+    ports:
+    - 6080:6080
+    - 8080:8080
+    - 18000:18000
+    - 16022:16022
+    depends_on:
+    - mariadb
+  mariadb:
+    image: linuxserver/mariadb
+    container_name: db_seiscomp
+    environment:
+      - MYSQL_ROOT_PASSWORD=demo
+    volumes:
+      - ./config_db:/config
+    ports:
+      - 3306:3306
+    restart: unless-stopped

@@ -6,19 +6,15 @@ Run Seiscomp with easy steps (base ubuntu)
 
 ## How to Use!
 
-Use docker to run it (VolcanoYT Repo requires a password, please ask me first)
+Use docker to run it (VolcanoYT repo requires a password, please ask me first, we are also trying to move our image to hub.docker so that it can be accessed publicly soon)
 
 ```bash
-docker run --rm -it -p 6080:6080/tcp repo.volcanoyt.com/docker-seiscomp:last
+# We no longer use mariadb server in container seiscomp because it's too much to take care of, so we tried linuxserver/mariadb image with docker compose.
+git clone https://github.com/volcanoyt/Docker-Seiscomp.git
+docker-compose up
 ```
 
-or please build it manually so you can use it without a password :)
-
-```bash
-docker build -t "docker-seiscomp:last" -f Dockerfile .
-```
-
-- Web Remote: http://localhost:6080 with password "demo" and sql server with "demo" (Tips preferably using a separate sql server with other containers.)
+- Web Remote: http://localhost:6080 with password "demo"
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
