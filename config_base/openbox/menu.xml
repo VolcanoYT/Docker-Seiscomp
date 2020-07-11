@@ -58,7 +58,7 @@
 
         <item label="Helicorder">
             <action name="Execute">
-                <execute>xfce4-terminal -e 'scheli GE.PLAI..BHZ'</execute>
+                <execute>xfce4-terminal -e 'scheli --stream=GE.PLAI..BHZ --rows 10'</execute>
             </action>
         </item>
 

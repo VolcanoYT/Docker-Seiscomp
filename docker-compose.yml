@@ -16,6 +16,9 @@ services:
     container_name: db_seiscomp
     environment:
       - MYSQL_ROOT_PASSWORD=demo
+      - MYSQL_DATABASE=seiscomp
+      - MYSQL_USER=sysop
+      - MYSQL_PASSWORD=sysop
     volumes:
       - ./config_db:/config
     ports:

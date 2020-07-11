@@ -35,7 +35,7 @@ RUN apt-get autoremove \
     && rm -rf /var/lib/apt/lists/*
 
 # We install and copy on user 'sistem'
-USER ${USER}
+# USER ${USER}
 
 # Install seiscomp
 RUN cd ${WORK} && for f in *.tar.gz; do tar -xzf "$f"; done && rm *.tar.gz
@@ -47,8 +47,12 @@ COPY config_seiscomp ${WORK}/
 # Copy misc data
 COPY data ${WORK}/
 
+# Fix permission problem
+RUN chown -R $USER ${WORK}/ &&\
+    chmod -R 775 ${WORK}/
+
 # back to root and run it
-USER root
+# USER root
 
 # Copy etc config
 COPY config_etc /etc/
