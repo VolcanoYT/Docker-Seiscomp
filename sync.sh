@@ -2,7 +2,7 @@
 # https://www.seiscomp.de/downloader/
 # http://eida.gfz-potsdam.de/webdc3/
 # wget "http://geofon.gfz-potsdam.de/fdsnws/station/1/query?net=GE&level=response" -O ge.xml
-seiscomp_ver=4.0.2 
+seiscomp_ver=4.0.4 
 base_os=ubuntu20.04-x86_64
 
 mkdir binary && cd binary || exit
